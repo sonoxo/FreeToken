@@ -1,4 +1,24 @@
 <div align="center">
+
+![FreeToken system](docs/assets/sonoxo-system.svg)
+
+## Sonoxo ecosystem view
+
+**FreeToken is an upstream FlashML project mirrored here for evaluation and integration.**
+
+`UPSTREAM PROJECT` · `EDGE INFERENCE` · `ATTRIBUTION PRESERVED`
+
+</div>
+
+> Sonoxo does not claim authorship of FreeToken, its paper, benchmarks, model support, or downloads. The canonical project and documentation belong to [FlashML-org/FreeToken](https://github.com/FlashML-org/FreeToken). Verify hardware support and claims against that upstream repository before use.
+
+## The simple version
+
+FreeToken is designed to coordinate model weights, CPU/GPU memory, and inference requests so large mixture-of-experts models can run on edge hardware. This Sonoxo copy should be treated as an integration surface until its exact sync and test status are verified.
+
+---
+
+<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FlashML-org/FreeToken/main/assets/freetoken-logo-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FlashML-org/FreeToken/main/assets/freetoken-logo-light.svg">
